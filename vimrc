@@ -466,7 +466,7 @@ nnoremap <C-c><C-c> :w<CR>:!python %<CR>
 nnoremap <C-c><Esc> <Esc>
 
 " simple cpp compilation
-nnoremap <C-c><C-p> :w <CR> :!g++ *.cpp -o %< -I. && ./%< <CR>
+" nnoremap <C-c><C-p> :w <CR> :!g++ *.cpp -o %< -I. && ./%< <CR>
 
 
 " GVim settings
