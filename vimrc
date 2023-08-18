@@ -210,7 +210,8 @@ nnoremap <leader>gA :Git add .<CR>
 nnoremap <leader>GA :Git add .<CR>
 nnoremap <leader>ga :Git add %<CR>
 nnoremap <leader>gc :Git commit<CR>
-nnoremap <leader>gg :Git commit -m "
+" nnoremap <leader>gg :Git commit -m "
+nnoremap <leader>gg :Git commit<CR>
 nnoremap <leader>gs :Git<CR>
 nnoremap <leader>g<Esc> <Esc>
 nnoremap <leader>G<Esc> <Esc>
