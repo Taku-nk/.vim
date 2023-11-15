@@ -250,6 +250,7 @@ nnoremap <leader>w<C-g> <Esc>
 nnoremap <leader>wc :wincmd c<CR>
 nnoremap <leader>wo :wincmd c<CR>
 nnoremap <leader>wv :wincmd v<CR>
+nnoremap <leader>ws :wincmd s<CR>
 nnoremap <leader>wh :sp<CR>
 nnoremap <leader>wi :wincmd i<CR>
 nnoremap <leader>ww :wincmd w<CR>
