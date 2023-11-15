@@ -287,7 +287,8 @@ vnoremap <C-[>k :m '<-2<CR>gv=gv
 " open
 nnoremap <leader>ow :wincmd c<CR>
 nnoremap <leader>ou :UndotreeShow<CR>
-nnoremap <leader>ot :term<CR>
+" nnoremap <leader>ot :term<CR>
+nnoremap <leader>ot :botright terminal<CR>
 
 nnoremap <leader>o<Esc> <Esc>
 nnoremap <leader>o<C-g> <Esc>
