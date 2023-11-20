@@ -433,6 +433,11 @@ nnoremap <C-c><C-m> :w<CR>:cd %:p:h<CR>:!python %<CR>
 nnoremap <C-c><C-c> :w<CR>:!python %<CR>
 nnoremap <C-c><Esc> <Esc>
 
+
+"remove trailing
+"format trail
+nnoremap <leader>ft :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
 " simple cpp compilation
 " nnoremap <C-c><C-p> :w <CR> :!g++ *.cpp -o %< -I. && ./%< <CR>
 
