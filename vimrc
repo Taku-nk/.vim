@@ -210,6 +210,7 @@ nnoremap <leader>gA :Git add .<CR>
 nnoremap <leader>GA :Git add .<CR>
 nnoremap <leader>ga :Git add %<CR>
 nnoremap <leader>gc :Git commit<CR>
+nnoremap <leader>gp :Git push<CR>
 " nnoremap <leader>gg :Git commit -m "
 nnoremap <leader>gg :Git commit<CR>
 nnoremap <leader>gs :Git<CR>
@@ -288,7 +289,11 @@ vnoremap <C-[>k :m '<-2<CR>gv=gv
 nnoremap <leader>ow :wincmd c<CR>
 nnoremap <leader>ou :UndotreeShow<CR>
 " nnoremap <leader>ot :term<CR>
-nnoremap <leader>ot :botright terminal<CR>
+" nnoremap <leader>ot :botright terminal<CR>
+" nnoremap <leader>oT :call ChooseTerm("term-pane", 1)<CR>
+nnoremap <leader>ot :call ChooseTerm("term-pane", 0)<CR>
+
+" nnoremap <leader>ot :ChooseTerm<CR>
 
 nnoremap <leader>o<Esc> <Esc>
 nnoremap <leader>o<C-g> <Esc>
